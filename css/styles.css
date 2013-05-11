@@ -64,7 +64,7 @@
 		font-weight:bold;
 		font-family:Georgia, Times, serif;
 	}
-	#code_description, #about ul {
+	#about ul {
 		float:right;
 	}
 	#about ul, #portfolio ul {
@@ -110,14 +110,16 @@
 	#home, #about, #portfolio, #contact {
 		text-align:center;
 	}
+	.textCenter {text-align: center;}
+	#home .inner {width: 82%; margin: auto;}
+		#home img {margin-top:100px; width: 100%;}
+		.georgia {font-family: georgia; font-weight: 300!important; font-size: 90px!important; text-shadow: 1px 1px 5px rgba(0,0,0, 0.7);}
+		.georgia.amp {font-size: 50px; margin: 0 10px;}
+		.p {font-size: 135px; color: #1FADD5;}
+		#home h3 {font-weight: 100;font-size: 1.56em; color: #93D5EF;}
 
-	#home .inner {width: 775px; height: 590px; margin: auto;}
 
-	#home img {
-		margin-top:100px;
-	}
 	/*About*/
-	#about #button {margin: 50px 367px;}
 	#about_wrapper {
 		margin:33px auto;
 		width:900px;
@@ -127,19 +129,20 @@
 	}
 	#about ul, #about img {display: inline-block;}
 	#about ul, #about #button {float: none;}
-	#about img {vertical-align: top; margin-right: 38px;}
+	#about img {vertical-align: top; margin-right: 70px;}
 	#about ul {width:460px;}
-	#about_p, #code_description {
+	#about_p, .code_description {
 		text-align:left;
 	}
-	#code_description {
-		width:220px;
+	.code_description {
+		vertical-align: top;
+		display: inline-block;
+		width:218px;
 		padding-bottom:65px;
 		margin-right:10px;
 	}
 	#about h1 {
 		font-size:18px;
-		width:104px;
 		padding-bottom:4px;
 	}
 	#about p {
@@ -162,10 +165,6 @@
 		height:195px;
 		margin-right:20px;
 		margin-top:60px
-	}
-	/*Contact*/
-	#contact {
-		height:500px;
 	}
 	
 	/*Contact Form*/
@@ -248,16 +247,16 @@
 	header nav a:first-child{display:none;}
 	#center, section{width:100%;}
 	#button{margin-right:30px;}
-	#about{height:950px;}
 	#about_wrapper, #portfolio{width:100%;padding-right:0px;}
-	#about ul{float:none;margin:auto;padding-top:40px;padding-left:70px;}
-	#about li{float:right;}
+	#about ul{float:none;margin:auto;padding-top:40px; width: 80%;}
+	#about img {margin-right: 0;}
+	#about #button {margin-left: auto; margin-right: auto;}
 	#portfolio ul{width:100%;}
 	#contact label{font-size:12px;}
 	#message label{margin:12px;}
-	form{width:100%;}
-	form textarea{margin-right:18px;}
-	form input[type="submit"]{margin-right:70px;}
+	form{width:80%%;}
+	form input, form textarea {margin-left: 0px!important; width: 100%!important; padding-right: 0px!important; padding-left: 0px!important;}
+	form textarea {margin-right: 0px;}
 	footer, footer nav{width:100%;text-align:center;}
 	footer small{float:none;}
 }
@@ -267,16 +266,8 @@
 	header nav a:first-child{display:none;}
 	#center, section{width:100%;}
 	#button{margin-right:30px;}
-	#about{height:950px;}
 	#about_wrapper, #portfolio{width:100%;padding-right:0px;}
-	#about ul{float:none;margin:auto;padding-top:40px;padding-left:70px;}
-	#about li{float:right;}
 	#portfolio ul{width:100%;}
 	#contact label{font-size:12px;}
 	#message label{margin:12px;}
-	form{width:100%;}
-	form textarea{margin-right:18px;}
-	form input[type="submit"]{margin-right:70px;}
-	footer, footer nav{width:100%;text-align:center;}
-	footer small{float:none;}
 }

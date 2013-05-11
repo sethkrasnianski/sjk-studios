@@ -44,5 +44,20 @@ $(document).ready(function() {
     }
     return [];
   }
- 
+  
+  $(window).bind('resize', function(){
+      var containerSize  = 775,
+          textPercentage = 0.17391304347826086956521739130435, /* 40/230 */
+          textRatio      = containerSize * textPercentage,
+          textEms        = textRatio / 14;
+
+      $('.container h3').css('fontSize', textEms+"em");
+      
+  console.log(containerSize+'\n');
+  console.log(textPercentage+'\n');
+  console.log(textRatio+'\n');
+  console.log(textEms+'\n');
+
+  }).trigger('resize');
+
 });
