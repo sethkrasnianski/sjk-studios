@@ -2,8 +2,8 @@
 			<div id="center">
 				<a href="index.php"><img src="images/logo.png" alt="SJK | Web Developer &amp; Designer" title="SJK | Web Developer &amp; Designer" width="270" height="120" /></a>
 			</div>
-			<div id="mobile-menu"></div>
 		</header>
+<div id="mobile-menu"></div>
 <nav id="main">
 	<section>
 		<a href="index.php">HOME</a>

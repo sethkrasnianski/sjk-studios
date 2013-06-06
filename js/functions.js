@@ -44,21 +44,6 @@ $(function() {
     }
     return [];
   }
-  
-  $(window).bind('resize', function(){
-      var containerSize  = 775,
-          textPercentage = 0.17391304347826086956521739130435, /* 40/230 */
-          textRatio      = containerSize * textPercentage,
-          textEms        = textRatio / 14;
-
-      $('.container h3').css('fontSize', textEms+"em");
-      
-  // console.log(containerSize+'\n');
-  // console.log(textPercentage+'\n');
-  // console.log(textRatio+'\n');
-  // console.log(textEms+'\n');
-
-  }).trigger('resize');
 
   $('#mobile-menu').click(function() {
     $('nav#main').toggleClass('open');
@@ -67,5 +52,16 @@ $(function() {
     $('nav#main').removeClass('open');
     console.log('t')
   });
+  // if ($(window).scrollTop() <= 68) {
+  //   $('nav#main').addClass('top');
+  // }
+});
 
+$(window).scroll(function() {
+  // if ($(window).scrollTop() <= 68) {
+  //   $('nav#main').addClass('top');
+    
+  // } else if($(window).scrollTop() > 68) {
+  //   $('nav#main').removeClass('top');
+  // }
 });
