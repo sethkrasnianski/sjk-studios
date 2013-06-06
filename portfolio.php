@@ -1,5 +1,7 @@
 <section id="portfolio"  style="margin-top:0px;">
-				<img src="images/portfolio_head.png" alt="SJK | Portfolio"/><br/>
+				<div class="textCenter">
+					<h1 class="georgia white">Portfolio<span class="p">.</span></h1>
+				</div>
 				<ul>
 					<li><a href="http://www.shelalara.com"><img src="images/portfolio_shelalara.jpg" alt="SJK | Shela Lara Vineyards &amp; Winery" title="SJK | Shela Lara Vineyards &amp; Winery"/></a></li>
 					<li><a href="http://www.superiorlcinc.com"><img src="images/portfolio_superior.jpg" alt="SJK | Superior Lawn Care Inc." title="SJK | Superior Lawn Care Inc."/></a></li>

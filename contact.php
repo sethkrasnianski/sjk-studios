@@ -1,5 +1,7 @@
 <section id="contact" style="margin-top:0px;">
-	<img src="images/contact_head.png" alt="SJK | Contact"/><br/>
+	<div class="textCenter">
+		<h1 class="georgia">Contact<span class="p">.</span></h1>
+	</div>
 	<?php echo nl2br($errors_required); ?>
 	<?php echo nl2br($errors_email); ?>
 	<form action="validate.php" method="post">

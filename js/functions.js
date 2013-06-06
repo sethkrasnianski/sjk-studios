@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(function() {
   function filterPath(string) {
   return string
     .replace(/^\//,'')
@@ -53,11 +53,19 @@ $(document).ready(function() {
 
       $('.container h3').css('fontSize', textEms+"em");
       
-  console.log(containerSize+'\n');
-  console.log(textPercentage+'\n');
-  console.log(textRatio+'\n');
-  console.log(textEms+'\n');
+  // console.log(containerSize+'\n');
+  // console.log(textPercentage+'\n');
+  // console.log(textRatio+'\n');
+  // console.log(textEms+'\n');
 
   }).trigger('resize');
+
+  $('#mobile-menu').click(function() {
+    $('nav#main').toggleClass('open');
+  });
+  $('nav#main section a').click(function() {
+    $('nav#main').removeClass('open');
+    console.log('t')
+  });
 
 });
