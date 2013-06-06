@@ -283,6 +283,7 @@
 	nav#main.open {height: 276px; visibility: visible;}
 		nav#main.open a {display: block; opacity: 1;}
 		#mobile-menu {display: block; opacity: 1;}
+	#mobile-menu {position: fixed; top: 15px;}
 }
 @media (max-width: 545px), (max-device-width: 545px) {	
 	.georgia {font-size: 260%!important;}
@@ -294,7 +295,6 @@
 	nav#main {margin-top: 0px;}
 	footer {height: 100%;}
 	header {position: absolute; height: 68px;}
-	#mobile-menu {position: fixed; top: 15px;}
 	header img {width: 200px!important; height: auto!important;}
 }
 @media (max-width: 430px), (max-device-width: 430px) {
