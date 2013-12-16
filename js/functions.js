@@ -50,18 +50,5 @@ $(function() {
   });
   $('nav#main section a').click(function() {
     $('nav#main').removeClass('open');
-    console.log('t')
   });
-  // if ($(window).scrollTop() <= 68) {
-  //   $('nav#main').addClass('top');
-  // }
-});
-
-$(window).scroll(function() {
-  // if ($(window).scrollTop() <= 68) {
-  //   $('nav#main').addClass('top');
-    
-  // } else if($(window).scrollTop() > 68) {
-  //   $('nav#main').removeClass('top');
-  // }
 });
